@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import {
   Shield,
-  Play,
+  Download,
   ArrowRight,
   WifiOff,
   Radio,
@@ -26,6 +26,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
+import logoAsset from "@/assets/sheshield-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -85,9 +86,7 @@ function Nav() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2">
-          <div className="grid h-8 w-8 place-items-center rounded-xl bg-primary text-primary-foreground shadow-glow">
-            <Shield className="h-4 w-4" />
-          </div>
+          <img src={logoAsset.url} alt="SheShield Mesh logo" className="h-9 w-9 rounded-lg object-cover" />
           <span className="text-base font-semibold tracking-tight">
             SheShield <span className="text-primary">Mesh</span>
           </span>
@@ -149,8 +148,8 @@ function Hero() {
               href="#cta"
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-glow transition-transform hover:scale-[1.02]"
             >
-              <Play className="h-4 w-4 fill-current" />
-              Watch Demo
+              <Download className="h-4 w-4" />
+              Download Application
             </a>
             <a
               href="#features"
