@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "sheshieldmesh" },
+      { name: "description", content: "SheShield Mesh is an offline-first women's safety platform that uses mesh networking, shake-based emergency activation, and community-powered alert relays to en" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "sheshieldmesh" },
+      { property: "og:description", content: "SheShield Mesh is an offline-first women's safety platform that uses mesh networking, shake-based emergency activation, and community-powered alert relays to en" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "sheshieldmesh" },
+      { name: "twitter:description", content: "SheShield Mesh is an offline-first women's safety platform that uses mesh networking, shake-based emergency activation, and community-powered alert relays to en" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/gz054cyGQCa2t4pJtVZSIvLObly2/social-images/social-1781873823745-Screenshot_2026-06-19_at_6.26.51_PM.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/gz054cyGQCa2t4pJtVZSIvLObly2/social-images/social-1781873823745-Screenshot_2026-06-19_at_6.26.51_PM.webp" },
     ],
     links: [
       {
