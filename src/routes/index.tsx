@@ -145,7 +145,9 @@ function Hero() {
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-3">
             <a
-              href="#cta"
+              href="https://drive.google.com/uc?export=download&id=13S-OtX7jmfX5xO3LmVgFF6tqyXfsrAUp"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-glow transition-transform hover:scale-[1.02]"
             >
               <Download className="h-4 w-4" />
